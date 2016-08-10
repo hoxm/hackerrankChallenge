@@ -7,20 +7,22 @@ Each source code folder is named according to the challenge domain name, and may
 language version I selected. For example, python3 is for python domain based on python3.x.
 
 
-# Python
-
-https://www.hackerrank.com/domains/python
+# [Python](https://www.hackerrank.com/domains/python)
 
 I choice python3 in this domain, just want to improve my understanding about the changes
 from python version 2.x to 3.x. My local test version is python3.5. All files are run
 like this "python3 filename" by default if there is no special notification.
 
 
-## Say "Hello, World!" With Python
+## [Say "Hello, World!" With Python](https://www.hackerrank.com/challenges/py-hello-world)
+
+[示例](https://github.com/hoxm/hackerrankChallenge/blob/master/python3/helloworld.py)
 
 没有什么好说的， 直接复制题目说明中地例子即可， 如果你不屑于这么做， 注意字符串大小写和空格之类的。
 
-## Reading Raw Input
+## [Reading Raw Input](https://www.hackerrank.com/challenges/python-raw-input)
+
+[示例](https://github.com/hoxm/hackerrankChallenge/blob/master/python3/reading_raw_input.py)
 
 Python3 之后去掉了raw_input(),  现在只有input 函数了， 返回值始终是string
 
@@ -30,3 +32,9 @@ Python3 之后去掉了raw_input(),  现在只有input 函数了， 返回值始
         <class 'str'>
 
 需要注意， 本题要求stdout只能有输入的内容， 所以input函数不能有prompt。
+
+## [Python If-Else](https://www.hackerrank.com/challenges/py-if-else)
+
+[示例](https://github.com/hoxm/hackerrankChallenge/blob/master/python3/py_if_else.py)
+
+这个没有什么好说地， if-elif-else 没有什么改变。
