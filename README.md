@@ -38,3 +38,10 @@ Python3 之后去掉了raw_input(),  现在只有input 函数了， 返回值始
 [示例](https://github.com/hoxm/hackerrankChallenge/blob/master/python3/py_if_else.py)
 
 这个没有什么好说地， if-elif-else 没有什么改变。
+
+## [Arithmetic Operators](https://www.hackerrank.com/challenges/python-arithmetic-operators)
+
+[示例](https://github.com/hoxm/hackerrankChallenge/blob/master/python3/arithmetic_operators.py)
+
+最简单的办法是三行print， 示例中把运算法则做成参数列表， 可以灵活添加。更加高级黑魔法有待研究。
+
