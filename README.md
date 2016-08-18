@@ -7,6 +7,13 @@ Each source code folder is named according to the challenge domain name, and may
 language version I selected. For example, python3 is for python domain based on python3.x.
 
 
+# [30 Days of code](https://www.hackerrank.com/domains/tutorials/30-days-of-code)
+
+## [Loops](https://www.hackerrank.com/challenges/30-loops)
+
+Python 2 中range() 被删除了， xrange() 被重命名为python3 中的 range()
+
+
 # [Python](https://www.hackerrank.com/domains/python)
 
 I choice python3 in this domain, just want to improve my understanding about the changes
