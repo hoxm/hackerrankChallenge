@@ -14,6 +14,19 @@ language version I selected. For example, python3 is for python domain based on 
 Python 2 中range() 被删除了， xrange() 被重命名为python3 中的 range()
 
 
+## [Arrays](https://www.hackerrank.com/challenges/30-arrays)
+
+python 还是很优雅的
+
+Print the elements of array in reverse order as a single line of space-separated numbers.
+print(' '.join(['%d' % i for i in a[-1::-1]]))
+
+
+## [Dictionaries and Maps](https://www.hackerrank.com/challenges/30-dictionaries-and-maps)
+
+字典get()方法第二个参数应该是位置参数，不是键值参数， 虽然有些文档提到get(key, default=<default>)
+
+
 # [Python](https://www.hackerrank.com/domains/python)
 
 I choice python3 in this domain, just want to improve my understanding about the changes
@@ -40,11 +53,13 @@ Python3 之后去掉了raw_input(),  现在只有input 函数了， 返回值始
 
 需要注意， 本题要求stdout只能有输入的内容， 所以input函数不能有prompt。
 
+
 ## [Python If-Else](https://www.hackerrank.com/challenges/py-if-else)
 
 [示例](https://github.com/hoxm/hackerrankChallenge/blob/master/python3/py_if_else.py)
 
 这个没有什么好说地， if-elif-else 没有什么改变。
+
 
 ## [Arithmetic Operators](https://www.hackerrank.com/challenges/python-arithmetic-operators)
 
