@@ -67,3 +67,10 @@ Python3 之后去掉了raw_input(),  现在只有input 函数了， 返回值始
 
 最简单的办法是三行print， 示例中把运算法则做成参数列表， 可以灵活添加。更加高级黑魔法有待研究。
 
+
+## [Nested Lists](https://www.hackerrank.com/challenges/nested-list)
+
+[示例](https://github.com/hoxm/hackerrankChallenge/blob/master/python3/nested_lists.py)
+
+使用列表的排序和序列化操作，可以思考还有没有更优化的做法。
+
