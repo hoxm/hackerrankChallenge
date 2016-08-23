@@ -88,3 +88,13 @@ Python3 之后去掉了raw_input(),  现在只有input 函数了， 返回值始
 
 [示例](https://github.com/hoxm/hackerrankChallenge/blob/master/python3/alphabet_rangoli.py)
 
+
+## [Capitalize](https://www.hackerrank.com/challenges/capitalize)
+
+
+[示例](https://github.com/hoxm/hackerrankChallenge/blob/master/python3/capitalize.py)
+
+"1 w r 3g" 这种case 不能用string.title()
+'Long string with     multi white spaces' 这种case也不能以word为单位调用string.capitalize()
+所以最后只能用笨办法， 暂时不知道有没有更优雅的方式
+
