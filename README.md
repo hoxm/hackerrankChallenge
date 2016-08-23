@@ -77,7 +77,6 @@ Python3 之后去掉了raw_input(),  现在只有input 函数了， 返回值始
 
 ## [Find s string](https://www.hackerrank.com/challenges/find-a-string)
 
-
 [示例](https://github.com/hoxm/hackerrankChallenge/blob/master/python3/find_a_string.py)
 
 注意cdcdc 这种算是match两遍， 所以简单地findall不好用。
@@ -85,16 +84,25 @@ Python3 之后去掉了raw_input(),  现在只有input 函数了， 返回值始
 
 ## [Alphabet Rangoli](https://www.hackerrank.com/challenges/alphabet-rangoli)
 
-
 [示例](https://github.com/hoxm/hackerrankChallenge/blob/master/python3/alphabet_rangoli.py)
 
 
 ## [Capitalize](https://www.hackerrank.com/challenges/capitalize)
-
 
 [示例](https://github.com/hoxm/hackerrankChallenge/blob/master/python3/capitalize.py)
 
 "1 w r 3g" 这种case 不能用string.title()
 'Long string with     multi white spaces' 这种case也不能以word为单位调用string.capitalize()
 所以最后只能用笨办法， 暂时不知道有没有更优雅的方式
+
+
+
+## [Capitalize](https://www.hackerrank.com/challenges/the-minion-game)
+
+[示例](https://github.com/hoxm/hackerrankChallenge/blob/master/python3/the_minion_game.py)
+
+最开始的时候被题目误导，首先等到所有子字符串，然后去掉重复: list(set(l))
+然后再开始统计重复，一次判断累加分数到哪边。
+当规模达到上限1000000时， 内存直接爆掉。生成字串时候直接判断，去掉没有必要的内存消耗，
+甚至发现子串也没有必要生成，但是时间还是太长。只能仔细思考规律，才得出示例版本。
 
