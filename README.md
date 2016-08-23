@@ -82,3 +82,9 @@ Python3 之后去掉了raw_input(),  现在只有input 函数了， 返回值始
 
 注意cdcdc 这种算是match两遍， 所以简单地findall不好用。
 
+
+## [Alphabet Rangoli](https://www.hackerrank.com/challenges/alphabet-rangoli)
+
+
+[示例](https://github.com/hoxm/hackerrankChallenge/blob/master/python3/alphabet_rangoli.py)
+
