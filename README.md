@@ -122,3 +122,12 @@ Python3 之后去掉了raw_input(),  现在只有input 函数了， 返回值始
 用到数学知识： atan，以及MBC是个等边三角形， BC中点是N的话， MNB也是直角三角形。
 所以tan MBC == tan ACB == AB/BC  atan 即可得到角度。
 
+
+## [Triangle Quest 2](https://www.hackerrank.com/challenges/triangle-quest-2)
+
+[示例](https://github.com/hoxm/hackerrankChallenge/blob/master/python3/triangle_quest_2.py)
+
+注意限制： 不能用任何字符串相关的东西，只能两行，还不能添加额外的循环
+所以只能纯粹的数学计算了，发现 11×11=121, 111×111=12321， 。。。
+问题是如何得到111呢， 限制不能用int('1'×3), 哈哈， (1000-1)/9 = 111
+
