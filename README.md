@@ -113,3 +113,12 @@ Python3 之后去掉了raw_input(),  现在只有input 函数了， 返回值始
 
 第一次提交代码没有通过， 因为超时， 所以还等想一下不是那么直截了当的方法实现。
 
+
+## [Find Angle MBC](https://www.hackerrank.com/challenges/find-angle)
+
+[示例](https://github.com/hoxm/hackerrankChallenge/blob/master/python3/find_angle.py)
+
+这是一个特列， 要求不能用python3, 注意‘a/b’ 要转为float才能得到float结果。
+用到数学知识： atan，以及MBC是个等边三角形， BC中点是N的话， MNB也是直角三角形。
+所以tan MBC == tan ACB == AB/BC  atan 即可得到角度。
+
