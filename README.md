@@ -106,3 +106,10 @@ Python3 之后去掉了raw_input(),  现在只有input 函数了， 返回值始
 当规模达到上限1000000时， 内存直接爆掉。生成字串时候直接判断，去掉没有必要的内存消耗，
 甚至发现子串也没有必要生成，但是时间还是太长。只能仔细思考规律，才得出示例版本。
 
+
+## [The captain's Room](https://www.hackerrank.com/challenges/the-captains-room)
+
+[示例](https://github.com/hoxm/hackerrankChallenge/blob/master/python3/the_captains_room.py)
+
+第一次提交代码没有通过， 因为超时， 所以还等想一下不是那么直截了当的方法实现。
+
