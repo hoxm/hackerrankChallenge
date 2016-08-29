@@ -131,3 +131,10 @@ Python3 之后去掉了raw_input(),  现在只有input 函数了， 返回值始
 所以只能纯粹的数学计算了，发现 11×11=121, 111×111=12321， 。。。
 问题是如何得到111呢， 限制不能用int('1'×3), 哈哈， (1000-1)/9 = 111
 
+
+## [Maximize It](https://www.hackerrank.com/challenges/maximize-it)
+
+[示例](https://github.com/hoxm/hackerrankChallenge/blob/master/python3/maximize_it.py)
+
+关键点： ``product(*L)``
+
